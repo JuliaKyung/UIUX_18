@@ -27,9 +27,15 @@ body {
     float: right;
 }
 
+hr {
+    background: #9AE5F5;
+    height: 2px;
+    border: none;
+}
 
 .hero {
     margin: 20px auto;
+    width: 50%;
 }
 
 .heroImage{
@@ -62,4 +68,29 @@ footer a {
 }
 footer a:hover {
     color: #BC1853;
+}
+.workPreview {
+    margin: auto;
+    width: 50%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.prevImg {
+    float: left;
+    margin: 15px;
+    border: 3px solid #9AE5F5;
+    border-radius: 20px;
+}
+.previewText1 {
+    padding-top: 2px;
+}
+.previewText2 {
+    padding-top: 40px;
+}
+.previewText3 {
+    padding-top: 50px;
+}
+.theRest {
+    clear: both;
+    text-align: center;
+    padding: 15px;
 }
