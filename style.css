@@ -42,10 +42,10 @@ hr {
     border-radius: 50%;
     width: 200px;
 }
-.hero p {
+p {
     font-family: 'Source Sans Pro', sans-serif;
 }
-h1 {
+.hero h1 {
     font-size: 60px;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
@@ -70,6 +70,7 @@ footer a:hover {
     color: #BC1853;
 }
 .workPreview {
+    display: grid;
     margin: auto;
     width: 50%;
     font-family: 'Source Sans Pro', sans-serif;
@@ -80,17 +81,51 @@ footer a:hover {
     border: 3px solid #9AE5F5;
     border-radius: 20px;
 }
-.previewText1 {
-    padding-top: 2px;
-}
-.previewText2 {
-    padding-top: 40px;
-}
-.previewText3 {
-    padding-top: 50px;
-}
 .theRest {
     clear: both;
     text-align: center;
     padding: 15px;
+}
+.aboutMe {
+    width: 50%;
+    margin: auto;
+}
+.aboutMe h1 {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mySkills {
+    width: 50%;
+    margin: auto;
+}
+.mySkills h1 {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mySkills h3 {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.containerFlex {
+    display: flex;
+}
+.containerFlex > div {
+    margin: 10px;
+}
+@media only screen and (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+    .rightNav {
+        display: none;
+    }
+    .heroImage {
+        width: 40%;
+    }
+    .aboutMe {
+        width: 100%;
+    }
+    .mySkills {
+        width: 100%;
+    }
 }
